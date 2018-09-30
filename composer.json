@@ -1,0 +1,8 @@
+{
+    "name": "Image map feld",
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    }
+}

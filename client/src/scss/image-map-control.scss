@@ -1,0 +1,45 @@
+.image-map-controls {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.image-map-controls__button {
+  margin-right: 15px;
+
+  &--internal-edit-cancel,
+  &--internal-change {
+    margin-left: 5px;
+  }
+}
+
+.image-map-controls__edit {
+  display: flex;
+  align-items: center;
+}
+
+.image-map-controls__tree-field-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+
+.image-map-controls__link-type {
+  margin: 0 10px;
+
+  input:first-child {
+    margin-right: 5px;
+  }
+}
+
+.image-map-controls__button-group {
+  margin-right: 15px;
+
+  .image-map-controls__button {
+    margin-right: -5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

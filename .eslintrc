@@ -1,0 +1,29 @@
+{
+    "extends": "airbnb",
+    "plugins": ["vue"],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "jest": true,
+        "describe": true,
+        "it": true,
+        "expect": true,
+        "test": true,
+        "jQuery": true,
+        "beforeEach": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-param-reassign": "off",
+        "no-console": ["warn", { "allow": ["warn", "error"] }]
+    }
+}
