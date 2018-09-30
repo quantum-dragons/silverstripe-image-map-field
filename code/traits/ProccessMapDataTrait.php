@@ -27,8 +27,10 @@ trait ProcessMapDataTrait
         $data = json_decode($this->ProcessMapData, true);
         $arrayList = ArrayList::create();
 
-        foreach ($data as $value) {
-            $arrayList->push(Area::create($value));
+        if (is_array($data)) {
+            foreach ($data as $value) {
+                $arrayList->push(Area::create($value));
+            }
         }
 
         $arrayData = ArrayData::create([
