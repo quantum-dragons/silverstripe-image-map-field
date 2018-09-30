@@ -53,7 +53,7 @@ class ImageMapField extends TextField
      */
     public function FieldHolder($properties = array())
     {
-        Requirements::javascript('/resources/image-map-field/client/dist/app.js');
+        Requirements::javascript('quantum-dragons/image-map-field:client/dist/app.js');
         return parent::FieldHolder($properties);
     }
 
