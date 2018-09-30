@@ -1,5 +1,5 @@
 {
-    "name": "quantum-dragons/image-map-feld",
+    "name": "quantum-dragons/image-map-field",
     "extra": {
         "expose": [
             "client/dist"
